@@ -71,6 +71,7 @@ Resources:
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-ebs"
         - Key: yor_trace
           Value: abe27655-9dc3-4f47-8f0a-94fc53b2ac05
+      Encrypted: True
 
   ### CFN Does not Support Volume Snapshot
   EBSAttachment:
